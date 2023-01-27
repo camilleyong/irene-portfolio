@@ -4,25 +4,50 @@
 }
 
 body {
-    background-color: wheat;
+    font-family: 'Outfit', sans-serif;
 }
 
 .name {
-    font-size: 100px;
-    padding: 20px 20px 0px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2F3137;
+    padding: 90px 0px 5px 90px;
 }
 
 .job-title {
-    padding: 0px 20px 0px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    color: #2F80ED;
+    padding: 5px 0px 5px 90px;
 }
 
-.projects {
-    padding-top: 30px;
+.arrow {
+    padding: 20px 0px 5px 110px;
+}
+
+.sub-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 76px;
+    letter-spacing: 0.1em;
+    color: rgba(130, 130, 130, 1);
+    padding: 0px 0px 5px 185px;
 }
 
 .work {
-    padding: 0px 20px 0px 20px;
-    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    padding: 20px 0px 5px 185px;
 }
 
 .work:hover {
@@ -30,11 +55,36 @@ body {
     transition: 0.3s
 }
 
+.contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4F4F4F;
+    padding: 90px 0px 100px 90px;
+}
+
+.email {
+    padding-bottom: 25px;
+}
+
+.link {
+    color: #4F4F4F;
+}
+
 .copyright {
     top: 0;
     bottom: 0;
     position: relative;
     z-index: 5;
-    font-size: 25px;
     text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AAAAAA;
+}
+
+.design {
+    font-size: 10px;
 }
