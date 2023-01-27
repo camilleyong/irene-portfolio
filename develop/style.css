@@ -50,9 +50,10 @@ body {
     padding: 20px 0px 5px 185px;
 }
 
-.work:hover {
+.work:hover{
     opacity: 0.28;
-    transition: 0.3s
+    transition: 0.3s;
+    cursor: default;
 }
 
 .contact {
@@ -70,6 +71,21 @@ body {
 
 .link {
     color: #4F4F4F;
+}
+
+.link:hover {
+    opacity: 0.28;
+    transition: 0.3s
+}
+
+.custom-icon {
+    color: #4F4F4F;
+    padding-top: 60px;
+}
+
+.custom-icon:hover {
+    opacity: 0.28;
+    transition: 0.3s
 }
 
 .copyright {
