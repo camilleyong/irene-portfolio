@@ -1,9 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Outfit', sans-serif;
 }
 
@@ -80,7 +77,7 @@ body {
 
 .custom-icon {
     color: #4F4F4F;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .custom-icon:hover {
