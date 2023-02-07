@@ -4,6 +4,11 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body {
+    background-image: url('../assets/Animation\ \(1\).png');
+    background-repeat: no-repeat;
+}
+
 .name {
     font-style: normal;
     font-weight: 400;
@@ -101,3 +106,70 @@
 .design {
     font-size: 10px;
 }
+
+i{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -webkit-animation: 'screen'  infinite;
+  animation: 'screen'  infinite;
+}
+
+
+i:nth-child(2){
+  top:20px;
+  left:30px;
+    background: -webkit-radial-gradient(center, ellipse cover,  #9adff0 0%,rgba(0,0,0,0) 100%);
+  box-shadow:0px 0px 0px 0px #5EC5DF;
+  animation-duration: 5s;
+}
+
+i:nth-child(3){
+  top:420px;
+  left:300px;
+  background: -webkit-radial-gradient(center, ellipse cover,  rgb(228, 188, 119) 0%,rgba(0,0,0,0) 100%);
+  box-shadow:0px 0px 0px 0px #FFA528;
+  animation-duration: 4s;
+}
+
+i:nth-child(4){
+  top:550px;
+  left:880px;
+  background: -webkit-radial-gradient(center, ellipse cover,  rgb(186, 229, 183) 0%,rgba(0,0,0,0) 100%);
+  box-shadow:0px 0px 0px 0px #B0C173;
+  animation-duration: 3s;
+}
+
+i:nth-child(5){
+  top:5px;
+  left:1030px;
+  background: -webkit-radial-gradient(center, ellipse cover,  rgb(229, 194, 222) 0%,rgba(0,0,0,0) 100%);
+  box-shadow:0px 0px 0px 0px #FF6677;
+  animation-duration: 4s;
+}
+  
+  
+  @keyframes screen {
+    from {
+      opacity: 0;
+    }
+  
+    25%{
+      opacity: 0.3;
+      transform: scale3d(3, 3, 4);
+    }
+  
+    50%{
+      opacity: 0.75;
+    }
+  
+    75%{
+      opacity: 1;
+  
+    }
+  
+    to{
+      opacity: 0;
+    }
+  }
