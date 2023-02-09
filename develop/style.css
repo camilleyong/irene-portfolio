@@ -107,6 +107,8 @@ body {
   font-size: 10px;
 }
 
+/* CSS FOR ANIMATED BUBBLES */
+
 i {
   position: absolute;
   width: 120px;
@@ -190,6 +192,8 @@ i:nth-child(5) {
     opacity: 0;
   }
 }
+
+/* MEDIA QUERY FOR SMARTPHONES AND TABLETS */
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   i {
