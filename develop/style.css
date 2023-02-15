@@ -197,8 +197,8 @@ i:nth-child(5) {
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   i {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
   }
   i:nth-child(2) {
     top: 120px;
