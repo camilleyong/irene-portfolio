@@ -1,252 +1,252 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", sans-serif;
-}
-
-body {
-  background-image: url("../assets/Animation\ \(1\).png");
-  background-repeat: no-repeat;
-}
-
-.name {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: #2f3137;
-  padding: 90px 0px 5px 90px;
-}
-
-.job-title {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.1em;
-  color: #2f80ed;
-  padding: 5px 0px 5px 90px;
-}
-
-.arrow {
-  padding: 20px 0px 5px 110px;
-}
-
-.sub-text {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 76px;
-  letter-spacing: 0.1em;
-  color: rgba(130, 130, 130, 1);
-  padding: 0px 0px 5px 185px;
-}
-
-.work {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 76px;
-  letter-spacing: 0.1em;
-  color: #333333;
-  padding: 20px 0px 5px 185px;
-}
-
-.work:hover {
-  opacity: 0.28;
-  transition: 0.3s;
-  cursor: default;
-}
-
-.contact {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: #4f4f4f;
-  padding: 90px 0px 100px 90px;
-}
-
-.email {
-  padding-bottom: 25px;
-}
-
-.link {
-  color: #4f4f4f;
-}
-
-.link:hover {
-  opacity: 0.28;
-  transition: 0.3s;
-}
-
-.custom-icon {
-  color: #4f4f4f;
-  padding-top: 40px;
-}
-
-.custom-icon:hover {
-  opacity: 0.28;
-  transition: 0.3s;
-}
-
-.copyright {
-  top: 0;
-  bottom: 0;
-  position: relative;
-  z-index: 5;
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #aaaaaa;
-}
-
-.design {
-  font-size: 10px;
-}
-
-/* CSS FOR ANIMATED BUBBLES */
-
-i {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  -webkit-animation: "screen" infinite;
-  animation: "screen" infinite;
-}
-
-i:nth-child(2) {
-  top: 20px;
-  left: 30px;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    #9adff0 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  box-shadow: 0px 0px 0px 0px #5ec5df;
-  animation-duration: 5s;
-}
-
-i:nth-child(3) {
-  top: 420px;
-  left: 300px;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    rgb(228, 188, 119) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  box-shadow: 0px 0px 0px 0px #ffa528;
-  animation-duration: 4s;
-}
-
-i:nth-child(4) {
-  top: 550px;
-  left: 880px;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    rgb(186, 229, 183) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  box-shadow: 0px 0px 0px 0px #b0c173;
-  animation-duration: 3s;
-}
-
-i:nth-child(5) {
-  top: 5px;
-  left: 1030px;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    rgb(229, 194, 222) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  box-shadow: 0px 0px 0px 0px #ff6677;
-  animation-duration: 4s;
-}
-
-@keyframes screen {
-  from {
-    opacity: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
   }
-
-  25% {
-    opacity: 0.3;
-    transform: scale3d(3, 3, 4);
+  
+  body {
+    background-image: url("../assets/Animation\ \(1\).png");
+    background-repeat: no-repeat;
   }
-
-  50% {
-    opacity: 0.75;
+  
+  .name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2f3137;
+    padding: 90px 0px 5px 90px;
   }
-
-  75% {
-    opacity: 1;
+  
+  .job-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    color: #2f80ed;
+    padding: 5px 0px 5px 90px;
   }
-
-  to {
-    opacity: 0;
+  
+  .arrow {
+    padding: 20px 0px 5px 110px;
   }
-}
-
-/* MEDIA QUERY FOR SMARTPHONES AND TABLETS */
-
-@media only screen and (min-width: 200px) and (max-width: 767px) {
-  i {
-    width: 70px;
-    height: 70px;
-  }
-  i:nth-child(2) {
-    top: 120px;
-    left: 30px;
-  }
-  i:nth-child(3) {
-    top: 300px;
-    left: 250px;
-  }
-  i:nth-child(4) {
-    top: 600px;
-    left: 100px;
-  }
-  i:nth-child(5) {
-    top: 900px;
-    left: 220px;
-  }
-  .work {
+  
+  .sub-text {
+    font-style: normal;
+    font-weight: 600;
     font-size: 30px;
-    display: flex;
-    padding-left: 60px;
-    margin: 0;
+    line-height: 76px;
+    letter-spacing: 0.1em;
+    color: rgba(130, 130, 130, 1);
+    padding: 0px 0px 5px 185px;
   }
-  .sub-text{
-    padding-left: 60px;
-    margin: 0;
-    font-size: 20px;
+  
+  .work {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    padding: 20px 0px 5px 185px;
   }
-  .name{
-    font-size: 20px;
-    padding-left: 30px;
-    margin: 0;
+  
+  .work:hover {
+    opacity: 0.28;
+    transition: 0.3s;
+    cursor: default;
   }
-  .job-title{
-    font-size: 28px;
-    padding-left: 30px;
-    margin: 0;
-  }
+  
   .contact {
-    padding-left: 30px;
-    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4f4f4f;
+    padding: 90px 0px 100px 90px;
   }
+  
+  .email {
+    padding-bottom: 25px;
+  }
+  
+  .link {
+    color: #4f4f4f;
+  }
+  
+  .link:hover {
+    opacity: 0.28;
+    transition: 0.3s;
+  }
+  
+  .custom-icon {
+    color: #4f4f4f;
+    padding-top: 40px;
+  }
+  
+  .custom-icon:hover {
+    opacity: 0.28;
+    transition: 0.3s;
+  }
+  
   .copyright {
+    top: 0;
+    bottom: 0;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #aaaaaa;
+  }
+  
+  .design {
     font-size: 10px;
-    margin: 0;
   }
-  .arrow{
-    margin: 0;
-    padding-left: 50px;
+  
+  /* CSS FOR ANIMATED BUBBLES */
+  
+  i {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-animation: "screen" infinite;
+    animation: "screen" infinite;
   }
-}
+  
+  i:nth-child(2) {
+    top: 20px;
+    left: 30px;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse cover,
+      #9adff0 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    box-shadow: 0px 0px 0px 0px #5ec5df;
+    animation-duration: 5s;
+  }
+  
+  i:nth-child(3) {
+    top: 420px;
+    left: 300px;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse cover,
+      rgb(228, 188, 119) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    box-shadow: 0px 0px 0px 0px #ffa528;
+    animation-duration: 4s;
+  }
+  
+  i:nth-child(4) {
+    top: 550px;
+    left: 880px;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse cover,
+      rgb(186, 229, 183) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    box-shadow: 0px 0px 0px 0px #b0c173;
+    animation-duration: 3s;
+  }
+  
+  i:nth-child(5) {
+    top: 5px;
+    left: 1030px;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse cover,
+      rgb(229, 194, 222) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    box-shadow: 0px 0px 0px 0px #ff6677;
+    animation-duration: 4s;
+  }
+  
+  @keyframes screen {
+    from {
+      opacity: 0;
+    }
+  
+    25% {
+      opacity: 0.3;
+      transform: scale3d(3, 3, 4);
+    }
+  
+    50% {
+      opacity: 0.75;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* MEDIA QUERY FOR SMARTPHONES AND TABLETS */
+  
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    i {
+      width: 70px;
+      height: 70px;
+    }
+    i:nth-child(2) {
+      top: 120px;
+      left: 30px;
+    }
+    i:nth-child(3) {
+      top: 300px;
+      left: 250px;
+    }
+    i:nth-child(4) {
+      top: 600px;
+      left: 100px;
+    }
+    i:nth-child(5) {
+      top: 900px;
+      left: 220px;
+    }
+    .work {
+      font-size: 30px;
+      display: flex;
+      padding-left: 60px;
+      margin: 0;
+    }
+    .sub-text{
+      padding-left: 60px;
+      margin: 0;
+      font-size: 20px;
+    }
+    .name{
+      font-size: 20px;
+      padding-left: 30px;
+      margin: 0;
+    }
+    .job-title{
+      font-size: 28px;
+      padding-left: 30px;
+      margin: 0;
+    }
+    .contact {
+      padding-left: 30px;
+      margin: 0;
+    }
+    .copyright {
+      font-size: 10px;
+      margin: 0;
+    }
+    .arrow{
+      margin: 0;
+      padding-left: 50px;
+    }
+  }
