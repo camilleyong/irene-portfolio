@@ -12,6 +12,8 @@
   }
 
   nav {
+    width: 100%;
+    padding: 4rem 4rem 0rem 4rem;
 
   }
 
@@ -31,6 +33,7 @@
     font-weight: 400;
     font-size: 56px;
     line-height: 60px;
+    margin: 5rem 0rem 0rem 4rem;
   }
 
   .about {
@@ -38,6 +41,7 @@
     line-height: 60px;
     font-style: normal;
     font-weight: 200;
+    margin: 0rem 0rem 5rem 4rem;
   }
 
 .actblue, .impact, .verb{
@@ -94,4 +98,14 @@
     font-size: 16px;
     line-height: 20px;
     color: #A8A8A8;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    z-index: 5;
+    margin-top: auto;
+    text-align: left;
   }
+
+.design {
+  font-size: 10px;
+}
