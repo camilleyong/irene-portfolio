@@ -1,113 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    background-image: url("assets/background-blur.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #2F3137;
-  }
+body {
+  background-image: url("assets/background-blur.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #2f3137;
+}
 
-  nav {
-    width: 100%;
-    padding: 4rem 4rem 0rem 4rem;
+.row {
+  float: right;
+  padding: 3rem 0rem 5rem 0rem;
+}
 
-  }
+.resume, .fun {
+  color: #a8a8a8;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
 
-  .irene {
-    background-color: #FEF9AD;
-    letter-spacing: 0.12em;
-    width: 80px;
-    height: 28px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-  }
+.irene {
+  background-color: #fef9ad;
+  letter-spacing: 0.12em;
+  width: 80px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  position: relative;
+  top: 2rem;
+  left: 4rem;
+}
 
-  .title {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 60px;
-    margin: 5rem 0rem 0rem 4rem;
-  }
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  margin: 5rem 0rem 0rem 4rem;
+}
 
-  .about {
-    font-size: 32px;
-    line-height: 60px;
-    font-style: normal;
-    font-weight: 200;
-    margin: 0rem 0rem 5rem 4rem;
-  }
+.about {
+  font-size: 32px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: 200;
+  margin: 0rem 0rem 5rem 4rem;
+}
 
-.actblue, .impact, .verb{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    color: #A8A8A8;
-    text-decoration: none;
-    margin: 0rem 0rem 2rem 4rem;
-  }
+.actblue,
+.impact,
+.verb {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #a8a8a8;
+  text-decoration: none;
+  margin: 0rem 0rem 2rem 4rem;
+}
 
-  .actblue:hover {
-    color: #479AD2;
-    transition: ease 1s;
-    
-  }
+.actblue:hover {
+  color: #479ad2;
+  transition: ease 1s;
+}
 
-  .impact:hover {
-    color: #334A48;
-    transition: ease 1s;
-  }
+.impact:hover {
+  color: #334a48;
+  transition: ease 1s;
+}
 
-  .verb:hover {
-    color: #4B3F8F;
-    transition: ease 1s;
-  }
+.verb:hover {
+  color: #4b3f8f;
+  transition: ease 1s;
+}
 
-  .email {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 3rem 0rem 12rem 4rem;
-  }
+.email {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 3rem 0rem 12rem 4rem;
+}
 
-  button {
-    background: none;
-    border: none;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
+button {
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
 
-  }
+button:hover {
+  color: #0066ff;
+  transition: ease 1s;
+  cursor: pointer;
+}
 
-  button:hover {
-    color: #0066FF;
-    transition: ease 1s;
-    cursor: pointer;
-  }
-
-  footer {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #A8A8A8;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    z-index: 5;
-    margin-top: auto;
-    text-align: left;
-  }
+footer {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a8a8a8;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  z-index: 5;
+  margin-top: auto;
+  text-align: left;
+}
 
 .design {
   font-size: 10px;
