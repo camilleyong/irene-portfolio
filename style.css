@@ -51,6 +51,7 @@
     line-height: 48px;
     color: #A8A8A8;
     text-decoration: none;
+    margin: 0rem 0rem 2rem 4rem;
   }
 
   .actblue:hover {
@@ -71,18 +72,20 @@
 
   .email {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
+    margin: 3rem 0rem 12rem 4rem;
   }
 
   button {
     background: none;
     border: none;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
+
   }
 
   button:hover {
@@ -108,4 +111,5 @@
 
 .design {
   font-size: 10px;
+  text-align: center;
 }
