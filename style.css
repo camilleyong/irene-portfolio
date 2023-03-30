@@ -1,7 +1,96 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Outfit", sans-serif;
   }
-  
- 
+
+  body {
+    background-image: url("assets/background-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  nav {
+
+  }
+
+  .irene {
+    background-color: #FEF9AD;
+    letter-spacing: 0.12em;
+    width: 80px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  .about {
+    font-size: 32px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+.actblue, .impact, .verb{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #A8A8A8;
+    text-decoration: none;
+  }
+
+  .actblue:hover {
+    color: #479AD2;
+    transition: ease 1s;
+    
+  }
+
+  .impact:hover {
+    color: #334A48;
+    transition: ease 1s;
+  }
+
+  .verb:hover {
+    color: #4B3F8F;
+    transition: ease 1s;
+  }
+
+  .email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  button:hover {
+    color: #0066FF;
+    transition: ease 1s;
+    cursor: pointer;
+  }
+
+  footer {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A8A8A8;
+  }
