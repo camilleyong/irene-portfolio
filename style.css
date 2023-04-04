@@ -165,7 +165,12 @@ i:hover {
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 
-  .irene, .resume {
+  .irene{
+    position: relative;
+    right: 23px;
+  }
+
+  .resume {
     position: relative;
     right: 2rem;
   }
