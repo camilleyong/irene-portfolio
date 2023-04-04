@@ -160,3 +160,31 @@ i:hover {
   cursor: pointer;
   transition: ease 1s;
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+  .irene, .resume {
+    position: relative;
+    right: 2rem;
+  }
+
+  .title, .about, .actblue, .impact, .verb {
+    margin-left: 2rem;
+  }
+
+  .email {
+    margin-left: 1.5rem;
+  }
+
+  footer {
+    padding-left: 2rem;
+    font-size: 12px;
+  }
+
+  .icon {
+    right: 1rem;
+  }
+
+}
