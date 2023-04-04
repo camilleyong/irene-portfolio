@@ -26,6 +26,11 @@ body {
   line-height: 24px;
 }
 
+.resume:hover, .fun:hover {
+  color: #2f3137;
+  transition: ease 1s;
+}
+
 .irene {
   background-color: #fef9ad;
   letter-spacing: 0.12em;
@@ -36,8 +41,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   position: relative;
-  top: 2rem;
-  left: 4rem;
+  top: 5rem;
+  margin-left: 4rem;
 }
 
 .title {
@@ -45,7 +50,7 @@ body {
   font-weight: 400;
   font-size: 56px;
   line-height: 60px;
-  margin: 5rem 0rem 0rem 4rem;
+  margin: 10rem 0rem 0rem 4rem;
 }
 
 .about {
@@ -119,9 +124,29 @@ footer {
   z-index: 5;
   margin-top: auto;
   text-align: left;
+  padding-left: 4rem;
 }
 
 .design {
   font-size: 10px;
   text-align: center;
+}
+
+.camille {
+  font-style: normal;
+  font-weight: 400;
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+.camille:hover {
+  color: #2f3137;
+  transition: ease 1s;
+}
+
+.icon {
+  font-size: 16px;
+  position: relative;
+  bottom: 0;
+  padding: 0;
 }
