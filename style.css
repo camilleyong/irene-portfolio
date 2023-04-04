@@ -145,8 +145,18 @@ footer {
 }
 
 .icon {
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   bottom: 0;
   padding: 0;
+}
+
+i {
+  color:  #334a48;
+}
+
+i:hover {
+  color:#a8a8a8;
+  cursor: pointer;
+  transition: ease 1s;
 }
